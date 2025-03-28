@@ -12,7 +12,7 @@ import { CartProvider } from './context/CartContext';
 import { LoyaltyProvider } from './context/LoyaltyContext';
 import { SpaceProvider } from './context/SpaceContext';
 
-function App() {
+const App = () => {
   return (
     <CartProvider>
       <LoyaltyProvider>
@@ -38,4 +38,6 @@ function App() {
       </LoyaltyProvider>
     </CartProvider>
   );
-}
+};
+
+export default App;
